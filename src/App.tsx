@@ -5,6 +5,15 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import Dashboard from "./pages/Dashboard.tsx";
+import DashboardReservations from "./pages/DashboardReservations.tsx";
+import DashboardRooms from "./pages/DashboardRooms.tsx";
+import DashboardGuests from "./pages/DashboardGuests.tsx";
+import DashboardChannels from "./pages/DashboardChannels.tsx";
+import DashboardReports from "./pages/DashboardReports.tsx";
+import DashboardSettings from "./pages/DashboardSettings.tsx";
+import DashboardBilling from "./pages/DashboardBilling.tsx";
+import DashboardReviews from "./pages/DashboardReviews.tsx";
 
 const queryClient = new QueryClient();
 
